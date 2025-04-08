@@ -11,6 +11,7 @@
   "adminOnlyMsg": false,
   "BOTNAME": "nayan-bot",
   "PREFIX": "/",
+  "react": "☠️",
   "OPERATOR": [
     "",
     "100000959749712"
