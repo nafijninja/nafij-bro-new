@@ -1,6 +1,6 @@
 ## ABOUT ME
 
-name : ```Nayan Developer```</br>
+name : ```Mohammad Nayan```</br>
 age : ```20```</br>
 link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
 
