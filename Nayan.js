@@ -132,14 +132,14 @@ if (á = nam.find(i => i.timer == new Date(Date.now()+25200000).toLocaleString()
       }, config.time * 60 * 1000)
     }
   }
-  function autoRestart(config) {
+ /* function autoRestart(config) {
     if(config.status) {
       setInterval(async () => {
         logger(`auto restart is processing, please wait.`, "Nayan")
         process.exit(1)
       }, config.time * 60 * 1000)
     }
-  }
+  }*/
   function accpetPending(config) {
     if(config.status) {
       setInterval(async () => {
@@ -159,7 +159,7 @@ notification(configCustom.notification)
 greetings(configCustom.greetings)
 reminder(configCustom.reminder)
 autoDeleteCache(configCustom.autoDeleteCache)
-autoRestart(configCustom.autoRestart)
+//autoRestart(configCustom.autoRestart)
 accpetPending(configCustom.accpetPending)
 	
 };
